@@ -1,0 +1,6 @@
+{
+    "server_ip": "x.x.x.x",
+    "server_port": xxxx,
+    "timeout": 5,
+    "description": "AP3216C 远程监控配置"
+}

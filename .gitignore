@@ -1,0 +1,29 @@
+# --- Linux Kernel Driver Build Artifacts ---
+*.ko
+*.o
+*.mod*
+*.order
+*.symvers
+.tmp_versions/
+/driver/.*.cmd
+/driver/.tmp_*/
+
+# --- C Server Binaries ---
+/server/server
+/server/*.o
+
+# --- Python & Client ---
+__pycache__/
+*.py[cod]
+.venv/
+
+# --- Config & Sensitive Info ---
+# 建议忽略具体配置，只留模板
+config.json
+*.ini
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
